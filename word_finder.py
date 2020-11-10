@@ -8,7 +8,7 @@
 
 words = open("President Washinton Inaugural Speech.txt", "r").read().split() #reading Inaugural Speech and making each word an element of an array
 newlist = open("Speech Alt.txt", "w") #creating a list for the words coming after each word "the" in the speech
-count = 0 #to keep track of for loop (@Edward: I am looking for ways to get rid of this if possible)
+count = 0 #to keep track of for loop 
 
 for word in words:
     if word.lower() == "the": #for every word, place all letters of the word into a lower case form and check for the word "the"
