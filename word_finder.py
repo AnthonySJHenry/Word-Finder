@@ -1,9 +1,5 @@
-#Program Name: string_finder.py
-#Course: IT3883/Section W01
-#Student(s) Name: Anthony Henry, Edward Koranteng
-#Assignment Number: Lab7
-#Due Date: 11/9/2020
-#Purpose: This program will read each line of a text file and find the word "the".
+#Written by Anthony Henry
+#Purpose: This program will read each line of a text file and find the word "the" (or any other word)
 #After finding the word "the" it will list the word immediately after in an array.
 
 words = open("President Washinton Inaugural Speech.txt", "r").read().split() #reading Inaugural Speech and making each word an element of an array
